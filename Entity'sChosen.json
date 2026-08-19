@@ -1,6 +1,6 @@
 {
 	"Name": "Entity's Chosen 2",
-	"Version": 1787136734,
+	"Version": 1787178271,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -1137,7 +1137,7 @@
 		},
 		{
 			"Name": "The Pig",
-			"KillerNotes": "",
+			"KillerNotes": "In case Wrecker's Yard is chosen as map: The survivors get no perks",
 			"IsDisabled": false,
 			"Map": [
 				"8",
@@ -1148,7 +1148,11 @@
 				0
 			],
 			"SurvivorBalanceTiers": [
-				5
+				0,
+				1,
+				2,
+				3,
+				4
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
