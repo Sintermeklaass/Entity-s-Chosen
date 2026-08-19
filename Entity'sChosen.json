@@ -1,6 +1,6 @@
 {
-	"Name": "Entity's Chosen",
-	"Version": 1787004418,
+	"Name": "Entity's Chosen 2",
+	"Version": 1787136734,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -769,8 +769,7 @@
 			"KillerComboPerkBans": [],
 			"SurvivorIndvPerkBans": [],
 			"SurvivorComboPerkBans": [],
-			"SurvivorWhitelistedPerks":
- [],
+			"SurvivorWhitelistedPerks": [],
 			"SurvivorWhitelistedComboPerks": [],
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
@@ -1401,8 +1400,7 @@
 				"Med-Kit": {
 					"Addons": []
 				},
-				"Toolbox":
- {
+				"Toolbox": {
 					"Addons": []
 				},
 				"Key": {
@@ -1513,7 +1511,11 @@
 				0
 			],
 			"SurvivorBalanceTiers": [
-				5
+				0,
+				1,
+				2,
+				3,
+				4
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -2054,8 +2056,7 @@
 					"Addons": []
 				},
 				"Fog Vial": {
-					"Addons":
- []
+					"Addons": []
 				}
 			},
 			"SurvivorOfferings": [],
@@ -2640,8 +2641,7 @@
 					"Addons": []
 				},
 				"Fog Vial": {
-					"Addons":
- []
+					"Addons": []
 				}
 			},
 			"SurvivorOfferings": [],
@@ -3287,8 +3287,7 @@
 				1,
 				2
 			],
-			"AntiFacecampPermitted":
- false,
+			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
 			"KillerComboPerkBans": [],
 			"SurvivorIndvPerkBans": [
