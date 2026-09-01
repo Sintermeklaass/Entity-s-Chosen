@@ -1,6 +1,6 @@
 {
 	"Name": "Entity's Chosen 2",
-	"Version": 1787178271,
+	"Version": 1788280606,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -20,6 +20,7 @@
 				"18",
 				"247",
 				"19",
+				"318",
 				"20",
 				"22",
 				"23",
@@ -92,6 +93,7 @@
 				"139",
 				"140",
 				"141",
+				"315",
 				"147",
 				"144",
 				"149",
@@ -190,6 +192,10 @@
 				[
 					"160",
 					"170"
+				],
+				[
+					"181",
+					"151"
 				]
 			]
 		},
@@ -230,6 +236,7 @@
 				"24",
 				"246",
 				"273",
+				"286",
 				"34",
 				"39",
 				"279",
@@ -238,6 +245,7 @@
 				"44",
 				"261",
 				"50",
+				"319",
 				"57",
 				"61",
 				"65",
@@ -259,7 +267,6 @@
 			"Name": "C",
 			"SurvivorIndvPerkBans": [
 				"8",
-				"286",
 				"261",
 				"308",
 				"313",
@@ -1305,7 +1312,13 @@
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
 			"KillerComboPerkBans": [],
-			"SurvivorIndvPerkBans": [],
+			"SurvivorIndvPerkBans": [
+				"306",
+				"10",
+				"286",
+				"303",
+				"103"
+			],
 			"SurvivorComboPerkBans": [],
 			"SurvivorWhitelistedPerks": [],
 			"SurvivorWhitelistedComboPerks": [],
@@ -2944,15 +2957,21 @@
 		{
 			"Name": "The Houndmaster",
 			"KillerNotes": "",
-			"IsDisabled": true,
+			"IsDisabled": false,
 			"Map": [
-				0
+				"0",
+				"9",
+				"16"
 			],
 			"BalanceTiers": [
 				0
 			],
 			"SurvivorBalanceTiers": [
-				0
+				0,
+				1,
+				2,
+				3,
+				4
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -2964,7 +2983,15 @@
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
-			"IndividualAddonBans": [],
+			"IndividualAddonBans": [
+				758,
+				753,
+				755,
+				748,
+				750,
+				747,
+				757
+			],
 			"ItemWhitelist": [],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -2989,8 +3016,15 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				0,
+				1,
+				2,
+				5
+			],
+			"KillerOfferings": [
+				5
+			]
 		},
 		{
 			"Name": "The Ghoul",
@@ -3357,6 +3391,57 @@
 			"KillerOfferings": [
 				5
 			]
+		},
+		{
+			"Name": "The Judgment",
+			"KillerNotes": "",
+			"IsDisabled": false,
+			"Map": [
+				0
+			],
+			"BalanceTiers": [
+				0
+			],
+			"SurvivorBalanceTiers": [
+				0
+			],
+			"AntiFacecampPermitted": false,
+			"KillerIndvPerkBans": [],
+			"KillerComboPerkBans": [],
+			"SurvivorIndvPerkBans": [],
+			"SurvivorComboPerkBans": [],
+			"SurvivorWhitelistedPerks": [],
+			"SurvivorWhitelistedComboPerks": [],
+			"KillerWhitelistedPerks": [],
+			"KillerWhitelistedComboPerks": [],
+			"AddonTiersBanned": [],
+			"IndividualAddonBans": [],
+			"ItemWhitelist": [],
+			"AddonWhitelist": {
+				"Firecracker": {
+					"Addons": []
+				},
+				"Flashlight": {
+					"Addons": []
+				},
+				"Med-Kit": {
+					"Addons": []
+				},
+				"Toolbox": {
+					"Addons": []
+				},
+				"Key": {
+					"Addons": []
+				},
+				"Map": {
+					"Addons": []
+				},
+				"Fog Vial": {
+					"Addons": []
+				}
+			},
+			"SurvivorOfferings": [],
+			"KillerOfferings": []
 		}
 	]
 }
